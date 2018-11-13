@@ -1,4 +1,4 @@
-package card;
+package Assets;
 
 public class ExtraAbilityMagicCard extends BasicMagicCard {
     private int extraAbilityValue;

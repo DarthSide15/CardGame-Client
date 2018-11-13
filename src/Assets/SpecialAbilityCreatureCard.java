@@ -1,4 +1,4 @@
-package card;
+package Assets;
 
 public class SpecialAbilityCreatureCard extends BasicCreatureCard {
 

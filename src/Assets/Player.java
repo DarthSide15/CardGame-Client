@@ -1,7 +1,7 @@
 package Assets;
 
-import card.BasicCard;
-import card.BasicCreatureCard;
+import Assets.BasicCard;
+import Assets.BasicCreatureCard;
 //import repository.DummyDB;
 //import server.Server;
 

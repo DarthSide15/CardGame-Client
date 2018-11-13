@@ -1,7 +1,7 @@
-package Game;
+package Assets;
 
-import card.BasicCard;
-import player.Player;
+import Assets.BasicCard;
+import Assets.Player;
 
 import java.util.ArrayList;
 import java.util.List;

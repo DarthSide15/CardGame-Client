@@ -1,5 +1,4 @@
-package card;
-
+package Assets;
 public class DblSpecialAbilityCreatureCard extends SpecialAbilityCreatureCard {
     int dblAbilityValue;
 
