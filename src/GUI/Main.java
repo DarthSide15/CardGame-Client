@@ -14,12 +14,20 @@ import java.io.IOException;
 public class Main extends Application {
 
     @Override
-    public void start(Stage primaryStage) throws Exception{
+    public void start(Stage primaryStage) throws Exception {
         Parent menu = FXMLLoader.load(getClass().getResource("main-menu-scene.fxml"));
         primaryStage.setTitle("Candy Wars");
         primaryStage.setScene(new Scene(menu, 1280, 720));
         primaryStage.show();
+
+        //Start Button
+        Button startButton = new Button("start game");
+        startButton.setOnAction(e -> {
+            MainMenuController menuController = new MainMenuController();
+            primaryStage.getScene().setRoot(menuController.getRootPane());
+        });
     }
+
 
     public static void main(String[] args) {
 
@@ -32,4 +40,4 @@ public class Main extends Application {
         gameStage.setScene(new Scene(game, 1280, 720));
         gameStage.show();
     }
-
+}
