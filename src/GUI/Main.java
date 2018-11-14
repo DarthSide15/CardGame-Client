@@ -21,7 +21,7 @@ public class Main extends Application {
     }
 
 
-    void renderGame(Stage gameStage) throws Exception {
+    public void renderGame(Stage gameStage) throws Exception {
         Parent game = FXMLLoader.load(getClass().getResource("views/game.fxml"));
         gameStage.setTitle("Candy Wars");
         gameStage.setScene(new Scene(game, 1280, 720));
