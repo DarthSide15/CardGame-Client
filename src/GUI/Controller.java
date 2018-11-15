@@ -4,6 +4,7 @@ import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.control.Label;
 
+import javafx.scene.image.ImageView;
 import javafx.scene.input.*;
 
 
@@ -19,46 +20,79 @@ import java.util.ResourceBundle;
 public class Controller implements Initializable {
     private List<BasicCard> playerAHand;
     private List<BasicCard> tableCards;
+    @FXML ArrayList<Data> data = new ArrayList<Data>();
 
     BasicCreatureCard card = null;
-
-    //Table card 1
+    //TABLE CARD 1
     @FXML private Label tableCardNameLabel1;
     @FXML private Label tableCardMcLabel1;
+    @FXML private ImageView img1;
     @FXML private Label tableCardFlavourTextLabel1;
-    @FXML private Label tableCardADDPLabel1;
+    @FXML private Label tableCardADLabel1;
+    @FXML private Label tableCardDPLabel1;
     @FXML private Label tableCardHPLabel1;
-    @FXML private Label handCardName1;
-    @FXML private Label handCardMc1;
-    @FXML private Label handCardFlavourText1;
-    @FXML private Label handCardADDP1;
-    @FXML private Label handCardHP1;
+    //TABLE CARD 2
     @FXML private Label tableCardNameLabel2;
     @FXML private Label tableCardMcLabel2;
+    @FXML private ImageView img2;
     @FXML private Label tableCardFlavourTextLabel2;
-    @FXML private Label tableCardADDPLabel2;
+    @FXML private Label tableCardADLabel2;
+    @FXML private Label tableCardDPLabel2;
     @FXML private Label tableCardHPLabel2;
+    //TABLE CARD 3
+    @FXML private Label tableCardNameLabel3;
+    @FXML private Label tableCardMcLabel3;
+    @FXML private ImageView img3;
+    @FXML private Label tableCardFlavourTextLabel3;
+    @FXML private Label tableCardADLabel3;
+    @FXML private Label tableCardDPLabel3;
+    @FXML private Label tableCardHPLabel3;
+    //TABLE CARD 4
+    @FXML private Label tableCardNameLabel4;
+    @FXML private Label tableCardMcLabel4;
+    @FXML private ImageView img4;
+    @FXML private Label tableCardFlavourTextLabel4;
+    @FXML private Label tableCardADLabel4;
+    @FXML private Label tableCardDPLabel4;
+    @FXML private Label tableCardHPLabel4;
+    //TABLE CARD 5
+    @FXML private Label tableCardNameLabel5;
+    @FXML private Label tableCardMcLabel5;
+    @FXML private ImageView img5;
+    @FXML private Label tableCardFlavourTextLabel5;
+    @FXML private Label tableCardADLabel5;
+    @FXML private Label tableCardDPLabel5;
+    @FXML private Label tableCardHPLabel5;
+    //ENEMY TABLE CARD 1
+    @FXML private Label enemyTableCardNameLabel1;
+    @FXML private Label enemyTableCardMcLabel1;
+    @FXML private ImageView enemyImg1;
+    @FXML private Label enemyTableCardFlavourTextLabel1;
+    @FXML private Label enemyTableCardADLabel1;
+    @FXML private Label enemyTableCardDPLabel1;
+    @FXML private Label enemyTableCardHPLabel1;
+    //ENEMY TABLE CARD 2
+    @FXML private Label enemyTableCardNameLabel2;
+    @FXML private Label enemyTableCardMcLabel2;
+    @FXML private ImageView enemyImg2;
+    @FXML private Label enemyTableCardFlavourTextLabel2;
+    @FXML private Label enemyTableCardADLabel2;
+    @FXML private Label enemyTableCardDPLabel2;
+    @FXML private Label enemyTableCardHPLabel2;
+    //ENEMY TABLE CARD 3
+    //ENEMY TABLE CARD 4
+    //ENEMY TABLE CARD 5
 
 
     @FXML private Pane pane1;
-//    @FXML private Pane pane2;
-   // @FXML private Label tableCardSpecialAbilityLabel1;
-//    @FXML private Label tableCardADDPLabel1;
-//    @FXML private Label tableCardHPLabel1;
-//    @FXML private Label tableCardNameLabel2;
-//    @FXML private Label tableCardMcLabel2;
-//    @FXML private Label tableCardFlavourTextLabel2;
-//   // @FXML private Label tableCardSpecialAbilityLabel2;
-//    @FXML private Label tableCardADDPLabel2;
-//    @FXML private Label tableCardHPLabel2;
-    //@FXML private ImageView imageView1;
-    //@FXML private Rectangle rectangle1;
+
 
 
 
 
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
+
         tableCards = new ArrayList<>();
         playerAHand = new ArrayList<>(Arrays.asList(
                 new BasicCreatureCard(1, "Marshmallow", "White soft treat", "does not exist yet", 0, 1, 2,1,1),
@@ -73,13 +107,13 @@ public class Controller implements Initializable {
                 new BasicCreatureCard(10, "Raisin", "Dried up grapes pretending to be candy", "does not exist yet",0, 1, 1,1,1))
         );
         //Player Hand
-            handCardName1.setText(playerAHand.get(0).getName());
+         //   handCardName1.setText(playerAHand.get(0).getName());
             handCardMc1.setText(Integer.toString(playerAHand.get(0).getManaCost()));
             handCardFlavourText1.setText((playerAHand.get(0).getFlavourText()));
             //tableCardSpecialAbilityLabel1.setText((playerADeck.get(0).getSp()));
             handCardADDP1.setText(Integer.toString(((BasicCreatureCard) playerAHand.get(0)).getAttack()));
             handCardHP1.setText(Integer.toString(((BasicCreatureCard) playerAHand.get(0)).getHealth()));
-            //rectangle1.opacityProperty().setValue(0);
+
 
 
 
