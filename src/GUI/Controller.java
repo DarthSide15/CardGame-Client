@@ -23,47 +23,159 @@ public class Controller implements Initializable {
     @FXML ArrayList<Data> data = new ArrayList<Data>();
 
     BasicCreatureCard card = null;
+
+    //HAND CARD 1
+    @FXML private Pane handPane1;
+    @FXML private Label handCardNameLabel1;
+    @FXML private Label handCardMcLabel1;
+    @FXML private ImageView handimg1;
+    @FXML private Label handCardFlavourTextLabel1;
+    @FXML private Label handCardADLabel1;
+    @FXML private Label handCardDPLabel1;
+    @FXML private Label handCardHPLabel1;
+
+    //HAND CARD 2
+    @FXML private Pane handPane2;
+    @FXML private Label handCardNameLabel2;
+    @FXML private Label handCardMcLabel2;
+    @FXML private ImageView handimg2;
+    @FXML private Label handCardFlavourTextLabel2;
+    @FXML private Label handCardADLabel2;
+    @FXML private Label handCardDPLabel2;
+    @FXML private Label handCardHPLabel2;
+
+    //HAND CARD 3
+    @FXML private Pane handPane3;
+    @FXML private Label handCardNameLabel3;
+    @FXML private Label handCardMcLabel3;
+    @FXML private ImageView handimg3;
+    @FXML private Label handCardFlavourTextLabel3;
+    @FXML private Label handCardADLabel3;
+    @FXML private Label handCardDPLabel3;
+    @FXML private Label handCardHPLabel3;
+
+    //HAND CARD 4
+    @FXML private Pane handPane4;
+    @FXML private Label handCardNameLabel4;
+    @FXML private Label handCardMcLabel4;
+    @FXML private ImageView handimg4;
+    @FXML private Label handCardFlavourTextLabel4;
+    @FXML private Label handCardADLabel4;
+    @FXML private Label handCardDPLabel4;
+    @FXML private Label handCardHPLabel4;
+
+    //HAND CARD 5
+    @FXML private Pane handPane5;
+    @FXML private Label handCardNameLabel5;
+    @FXML private Label handCardMcLabel5;
+    @FXML private ImageView handimg5;
+    @FXML private Label handCardFlavourTextLabel5;
+    @FXML private Label handCardADLabel5;
+    @FXML private Label handCardDPLabel5;
+    @FXML private Label handCardHPLabel5;
+
+    //HAND CARD 6
+    @FXML private Pane handPane6;
+    @FXML private Label handCardNameLabel6;
+    @FXML private Label handCardMcLabel6;
+    @FXML private ImageView handimg6;
+    @FXML private Label handCardFlavourTextLabel6;
+    @FXML private Label handCardADLabel6;
+    @FXML private Label handCardDPLabel6;
+    @FXML private Label handCardHPLabel6;
+
+    //HAND CARD 7
+    @FXML private Pane handPane7;
+    @FXML private Label handCardNameLabel7;
+    @FXML private Label handCardMcLabel7;
+    @FXML private ImageView handimg7;
+    @FXML private Label handCardFlavourTextLabel7;
+    @FXML private Label handCardADLabel7;
+    @FXML private Label handCardDPLabel7;
+    @FXML private Label handCardHPLabel7;
+
+    //HAND CARD 8
+    @FXML private Pane handPane8;
+    @FXML private Label handCardNameLabel8;
+    @FXML private Label handCardMcLabel8;
+    @FXML private ImageView handimg8;
+    @FXML private Label handCardFlavourTextLabel8;
+    @FXML private Label handCardADLabel8;
+    @FXML private Label handCardDPLabel8;
+    @FXML private Label handCardHPLabel8;
+
+    //HAND CARD 9
+    @FXML private Pane handPane9;
+    @FXML private Label handCardNameLabel9;
+    @FXML private Label handCardMcLabel9;
+    @FXML private ImageView handimg9;
+    @FXML private Label handCardFlavourTextLabel9;
+    @FXML private Label handCardADLabel9;
+    @FXML private Label handCardDPLabel9;
+    @FXML private Label handCardHPLabel9;
+
+    //HAND CARD 10
+    @FXML private Pane handPane10;
+    @FXML private Label handCardNameLabel10;
+    @FXML private Label handCardMcLabel10;
+    @FXML private ImageView handimg10;
+    @FXML private Label handCardFlavourTextLabel10;
+    @FXML private Label handCardADLabel10;
+    @FXML private Label handCardDPLabel10;
+    @FXML private Label handCardHPLabel10;
+
     //TABLE CARD 1
+    @FXML private Pane tablePane1;
     @FXML private Label tableCardNameLabel1;
     @FXML private Label tableCardMcLabel1;
-    @FXML private ImageView img1;
+    @FXML private ImageView tableimg1;
     @FXML private Label tableCardFlavourTextLabel1;
     @FXML private Label tableCardADLabel1;
     @FXML private Label tableCardDPLabel1;
     @FXML private Label tableCardHPLabel1;
+
     //TABLE CARD 2
+    @FXML private Pane tablePane2;
     @FXML private Label tableCardNameLabel2;
     @FXML private Label tableCardMcLabel2;
-    @FXML private ImageView img2;
+    @FXML private ImageView tableimg2;
     @FXML private Label tableCardFlavourTextLabel2;
     @FXML private Label tableCardADLabel2;
     @FXML private Label tableCardDPLabel2;
     @FXML private Label tableCardHPLabel2;
+
     //TABLE CARD 3
+    @FXML private Pane tablePane3;
     @FXML private Label tableCardNameLabel3;
     @FXML private Label tableCardMcLabel3;
-    @FXML private ImageView img3;
+    @FXML private ImageView tableimg3;
     @FXML private Label tableCardFlavourTextLabel3;
     @FXML private Label tableCardADLabel3;
     @FXML private Label tableCardDPLabel3;
     @FXML private Label tableCardHPLabel3;
+
     //TABLE CARD 4
+    @FXML private Pane tablePane4;
     @FXML private Label tableCardNameLabel4;
     @FXML private Label tableCardMcLabel4;
-    @FXML private ImageView img4;
+    @FXML private ImageView tableimg4;
     @FXML private Label tableCardFlavourTextLabel4;
     @FXML private Label tableCardADLabel4;
     @FXML private Label tableCardDPLabel4;
     @FXML private Label tableCardHPLabel4;
+
     //TABLE CARD 5
+    @FXML private Pane tablePane5;
     @FXML private Label tableCardNameLabel5;
     @FXML private Label tableCardMcLabel5;
-    @FXML private ImageView img5;
+    @FXML private ImageView tableimg5;
     @FXML private Label tableCardFlavourTextLabel5;
     @FXML private Label tableCardADLabel5;
     @FXML private Label tableCardDPLabel5;
     @FXML private Label tableCardHPLabel5;
+
     //ENEMY TABLE CARD 1
+    @FXML private Pane enemyTablePane1;
     @FXML private Label enemyTableCardNameLabel1;
     @FXML private Label enemyTableCardMcLabel1;
     @FXML private ImageView enemyImg1;
@@ -71,7 +183,9 @@ public class Controller implements Initializable {
     @FXML private Label enemyTableCardADLabel1;
     @FXML private Label enemyTableCardDPLabel1;
     @FXML private Label enemyTableCardHPLabel1;
+
     //ENEMY TABLE CARD 2
+    @FXML private Pane enemyTablePane2;
     @FXML private Label enemyTableCardNameLabel2;
     @FXML private Label enemyTableCardMcLabel2;
     @FXML private ImageView enemyImg2;
@@ -79,15 +193,56 @@ public class Controller implements Initializable {
     @FXML private Label enemyTableCardADLabel2;
     @FXML private Label enemyTableCardDPLabel2;
     @FXML private Label enemyTableCardHPLabel2;
+
     //ENEMY TABLE CARD 3
+    @FXML private Pane enemyTablePane3;
+    @FXML private Label enemyTableCardNameLabel3;
+    @FXML private Label enemyTableCardMcLabel3;
+    @FXML private ImageView enemyImg3;
+    @FXML private Label enemyTableCardFlavourTextLabel3;
+    @FXML private Label enemyTableCardADLabel3;
+    @FXML private Label enemyTableCardDPLabel3;
+    @FXML private Label enemyTableCardHPLabel3;
+
     //ENEMY TABLE CARD 4
+    @FXML private Pane enemyTablePane4;
+    @FXML private Label enemyTableCardNameLabel4;
+    @FXML private Label enemyTableCardMcLabel4;
+    @FXML private ImageView enemyImg4;
+    @FXML private Label enemyTableCardFlavourTextLabel4;
+    @FXML private Label enemyTableCardADLabel4;
+    @FXML private Label enemyTableCardDPLabel4;
+    @FXML private Label enemyTableCardHPLabel4;
+
     //ENEMY TABLE CARD 5
+    @FXML private Pane enemyTablePane5;
+    @FXML private Label enemyTableCardNameLabel5;
+    @FXML private Label enemyTableCardMcLabel5;
+    @FXML private ImageView enemyImg5;
+    @FXML private Label enemyTableCardFlavourTextLabel5;
+    @FXML private Label enemyTableCardADLabel5;
+    @FXML private Label enemyTableCardDPLabel5;
+    @FXML private Label enemyTableCardHPLabel5;
 
+    //ENEMY HAND
+    @FXML private Pane enemyHandPane1;
+    @FXML private Pane enemyHandPane2;
+    @FXML private Pane enemyHandPane3;
+    @FXML private Pane enemyHandPane4;
+    @FXML private Pane enemyHandPane5;
+    @FXML private Pane enemyHandPane6;
+    @FXML private Pane enemyHandPane7;
+    @FXML private Pane enemyHandPane8;
+    @FXML private Pane enemyHandPane9;
+    @FXML private Pane enemyHandPane10;
 
-    @FXML private Pane pane1;
+    // PLAYER
+    @FXML private Label playerHP;
+    @FXML private Label playerMana;
 
-
-
+    // ENEMY
+    @FXML private Label enemyHP;
+    @FXML private Label enemyMana;
 
 
     @Override
