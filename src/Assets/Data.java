@@ -1,87 +1,91 @@
 package Assets;
 
+import javafx.fxml.FXML;
+import javafx.scene.control.Label;
+import javafx.scene.layout.Pane;
+
 import java.net.URL;
 
 public class Data {
-    private int id;
-    private String name;
-    private int manaCost;
-    private String img;
-    private String flavourText;
-    private String specialAbility;
-    private int attackPower;
-    private int defencePower;
-    private int health;
+    @FXML private Pane id;
+    @FXML private Label name;
+    @FXML private Label manaCost;
+    @FXML private Label img;
+    @FXML private Label flavourText;
+    @FXML private Label specialAbility;
+    @FXML private Label attackPower;
+    @FXML private Label defencePower;
+    @FXML private Label health;
 
-    public int getId() {
+    public Pane getId() {
         return id;
     }
 
-    public void setId(int id) {
+    public void setId(Pane id) {
         this.id = id;
     }
 
-    public String getName() {
+    public Label getName() {
         return name;
     }
 
-    public void setName(String name) {
+    public void setName(Label name) {
         this.name = name;
     }
 
-    public int getManaCost() {
+    public Label getManaCost() {
         return manaCost;
     }
 
-    public void setManaCost(int manaCost) {
+    public void setManaCost(Label manaCost) {
         this.manaCost = manaCost;
     }
 
-    public String getImg() {
+    public Label getImg() {
         return img;
     }
 
-    public void setImg(String img) {
+    public void setImg(Label img) {
         this.img = img;
     }
 
-    public String getFlavourText() {
+    public Label getFlavourText() {
         return flavourText;
     }
 
-    public void setFlavourText(String flavourText) {
+    public void setFlavourText(Label flavourText) {
         this.flavourText = flavourText;
     }
 
-    public String getSpecialAbility() {
+    public Label getSpecialAbility() {
         return specialAbility;
     }
 
-    public void setSpecialAbility(String specialAbility) {
+    public void setSpecialAbility(Label specialAbility) {
         this.specialAbility = specialAbility;
     }
 
-    public int getAttackPower() {
+    public Label getAttackPower() {
         return attackPower;
     }
 
-    public void setAttackPower(int attackPower) {
+    public void setAttackPower(Label attackPower) {
         this.attackPower = attackPower;
     }
 
-    public int getDefencePower() {
+    public Label getDefencePower() {
         return defencePower;
     }
 
-    public void setDefencePower(int defencePower) {
+    public void setDefencePower(Label defencePower) {
         this.defencePower = defencePower;
     }
 
-    public int getHealth() {
+    public Label getHealth() {
         return health;
     }
 
-    public void setHealth(int health) {
+    public void setHealth(Label health) {
         this.health = health;
     }
 }
