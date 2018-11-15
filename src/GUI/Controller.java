@@ -237,12 +237,26 @@ public class Controller implements Initializable {
     @FXML private Pane enemyHandPane10;
 
     // PLAYER
+    @FXML private Label player;
     @FXML private Label playerHP;
     @FXML private Label playerMana;
 
     // ENEMY
+    @FXML private Label enemy;
     @FXML private Label enemyHP;
     @FXML private Label enemyMana;
+
+    //PLAYER GRAVEYARD
+    @FXML private Label playerGraveyard;
+
+    //ENEMY GRAVEYARD
+    @FXML private Label enemyGraveyard;
+
+    //PLAYER DECK
+    @FXML private Label playerDeck;
+
+    //ENEMYDECK
+    @FXML private Label enemyDeck;
 
 
     @Override
