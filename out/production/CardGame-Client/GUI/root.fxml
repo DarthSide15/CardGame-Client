@@ -742,24 +742,6 @@
                </children>
             </Pane>
          </children></AnchorPane>
-      <AnchorPane layoutX="399.0" layoutY="138.0" prefHeight="100.0" prefWidth="70.0">
-         <children>
-            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#c5bbd7" height="200.0" layoutX="1.0" layoutY="4.0" stroke="BLACK" strokeType="INSIDE" width="140.0" />
-            <Label layoutX="23.0" layoutY="14.0" text="Name" />
-            <Label layoutX="80.0" layoutY="14.0" text="MC" />
-            <ImageView fitHeight="162.0" fitWidth="73.0" layoutX="34.0" layoutY="31.0" pickOnBounds="true" preserveRatio="true">
-               <image>
-                  <Image url="@img/candycard.jpg" />
-               </image>
-            </ImageView>
-            <Label layoutX="38.0" layoutY="104.0" text="Flavour Text" />
-            <Label layoutX="2.0" layoutY="121.0" prefHeight="60.0" prefWidth="140.0" text="Special Ability" />
-            <Label layoutX="7.0" layoutY="178.0" text="AP/DP" />
-            <Label layoutX="49.0" layoutY="178.0" prefHeight="17.0" prefWidth="0.0" text="5" />
-            <Label layoutX="85.0" layoutY="178.0" prefHeight="17.0" prefWidth="19.0" text="HP" />
-            <Label layoutX="107.0" layoutY="178.0" prefHeight="17.0" prefWidth="19.0" text="5" />
-         </children>
-      </AnchorPane>
       <AnchorPane layoutX="569.0" layoutY="137.0" prefHeight="100.0" prefWidth="70.0">
          <children>
             <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#c5bbd7" height="200.0" layoutX="1.0" layoutY="4.0" stroke="BLACK" strokeType="INSIDE" width="140.0" />
@@ -1332,6 +1314,28 @@
                   <Label layoutY="174.0" text="AP/DP" />
                   <Label fx:id="tableCardADDPLabel21" layoutX="46.0" layoutY="174.0" prefHeight="17.0" prefWidth="19.0" text="5" />
                   <Label fx:id="tableCardHPLabel21" layoutX="116.0" layoutY="174.0" prefHeight="17.0" prefWidth="0.0" text="5" />
+               </children>
+            </Pane>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="404.0" layoutY="140.0" prefHeight="200.0" prefWidth="151.0">
+         <children>
+            <Pane layoutX="10.0" prefHeight="200.0" prefWidth="140.0">
+               <children>
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#c5bbd7" height="200.0" stroke="BLACK" strokeType="INSIDE" width="140.0" />
+                  <ImageView fitHeight="89.0" fitWidth="71.0" layoutX="36.0" layoutY="28.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@img/candycard.jpg" />
+                     </image>
+                  </ImageView>
+                  <Label fx:id="tableCardNameLabel2" layoutX="14.0" layoutY="14.0" text="Name" />
+                  <Label fx:id="tableCardMcLabel2" layoutX="101.0" layoutY="15.0" text="MC" />
+                  <Label fx:id="tableCardFlavourTextLabel2" layoutX="32.0" layoutY="97.0" text="Flavour Text" />
+                  <Label layoutX="2.0" layoutY="114.0" prefHeight="60.0" prefWidth="140.0" text="Special Ability" />
+                  <Label layoutX="92.0" layoutY="174.0" prefHeight="17.0" prefWidth="19.0" text="HP" />
+                  <Label layoutY="174.0" text="AP/DP" />
+                  <Label fx:id="tableCardADDPLabel2" layoutX="46.0" layoutY="174.0" prefHeight="17.0" prefWidth="19.0" text="5" />
+                  <Label fx:id="tableCardHPLabel2" layoutX="116.0" layoutY="174.0" prefHeight="17.0" prefWidth="0.0" text="5" />
                </children>
             </Pane>
          </children>
