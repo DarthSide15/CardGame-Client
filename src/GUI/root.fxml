@@ -609,22 +609,21 @@
       </AnchorPane>
       <AnchorPane layoutX="223.0" layoutY="139.0" prefHeight="200.0" prefWidth="142.0">
          <children>
-            <Pane layoutX="10.0" prefHeight="200.0" prefWidth="140.0">
+            <Pane fx:id="enemyTablePane1" layoutX="10.0" prefHeight="200.0" prefWidth="140.0">
                <children>
                   <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#c5bbd7" height="200.0" stroke="BLACK" strokeType="INSIDE" width="140.0" />
-                  <ImageView fitHeight="89.0" fitWidth="71.0" layoutX="36.0" layoutY="28.0" pickOnBounds="true" preserveRatio="true">
+                  <ImageView fx:id="enemyImg1" fitHeight="89.0" fitWidth="71.0" layoutX="36.0" layoutY="28.0" pickOnBounds="true" preserveRatio="true">
                      <image>
                         <Image url="@img/candycard.jpg" />
                      </image>
                   </ImageView>
-                  <Label fx:id="tableCardNameLabel1" layoutX="14.0" layoutY="14.0" text="Name" />
-                  <Label fx:id="tableCardMcLabel1" layoutX="101.0" layoutY="15.0" text="MC" />
-                  <Label fx:id="tableCardFlavourTextLabel1" layoutX="32.0" layoutY="97.0" text="Flavour Text" />
+                  <Label fx:id="enemyTableCardNameLabel1" layoutX="14.0" layoutY="14.0" text="Name" />
+                  <Label fx:id="enemyTableCardMcLabel1" layoutX="101.0" layoutY="15.0" text="MC" />
+                  <Label fx:id="enemyTableCardFlavourTextLabel1" layoutX="32.0" layoutY="97.0" text="Flavour Text" />
                   <Label layoutX="2.0" layoutY="114.0" prefHeight="60.0" prefWidth="140.0" text="Special Ability" />
                   <Label layoutX="92.0" layoutY="174.0" prefHeight="17.0" prefWidth="19.0" text="HP" />
-                  <Label layoutY="174.0" text="AP 5" />
-                  <Label fx:id="tableCardADDPLabel1" layoutX="46.0" layoutY="174.0" prefHeight="17.0" prefWidth="29.0" text="DP 5" />
-                  <Label fx:id="tableCardHPLabel1" layoutX="116.0" layoutY="174.0" prefHeight="17.0" prefWidth="0.0" text="5" />
+                  <Label layoutY="174.0" text="AP " />
+                  <Label fx:id="tableCardADDPLabel1" layoutX="46.0" layoutY="174.0" prefHeight="17.0" prefWidth="29.0" text="DP " />
                </children>
             </Pane>
          </children></AnchorPane>
@@ -665,9 +664,8 @@
                   <Label fx:id="tableCardFlavourTextLabel2" layoutX="32.0" layoutY="97.0" text="Flavour Text" />
                   <Label layoutX="2.0" layoutY="114.0" prefHeight="60.0" prefWidth="140.0" text="Special Ability" />
                   <Label layoutX="92.0" layoutY="174.0" prefHeight="17.0" prefWidth="19.0" text="HP" />
-                  <Label fx:id="enemyTable" layoutY="174.0" prefHeight="17.0" prefWidth="36.0" />
-                  <Label fx:id="tableCardADDPLabel2" layoutX="46.0" layoutY="174.0" prefHeight="17.0" prefWidth="19.0" text="5" />
-                  <Label fx:id="tableCardHPLabel2" layoutX="116.0" layoutY="174.0" prefHeight="17.0" prefWidth="0.0" text="5" />
+                  <Label fx:id="enemyTable" layoutY="174.0" prefHeight="17.0" prefWidth="36.0" text="AP" />
+                  <Label fx:id="tableCardADDPLabel2" layoutX="46.0" layoutY="174.0" prefHeight="17.0" prefWidth="19.0" text="DP" />
                </children>
             </Pane>
          </children>
@@ -776,9 +774,8 @@
                   <Label fx:id="tableCardFlavourTextLabel22" layoutX="32.0" layoutY="97.0" text="Flavour Text" />
                   <Label layoutX="2.0" layoutY="114.0" prefHeight="60.0" prefWidth="140.0" text="Special Ability" />
                   <Label layoutX="92.0" layoutY="174.0" prefHeight="17.0" prefWidth="19.0" text="HP" />
-                  <Label fx:id="enemyTableCardADLabel3" layoutY="174.0" text="AP/DP" />
-                  <Label fx:id="enemyTableCardDPLabel3" layoutX="46.0" layoutY="174.0" prefHeight="17.0" prefWidth="19.0" text="5" />
-                  <Label fx:id="tableCardHPLabel22" layoutX="116.0" layoutY="174.0" prefHeight="17.0" prefWidth="0.0" text="5" />
+                  <Label fx:id="enemyTableCardADLabel3" layoutY="174.0" text="AP" />
+                  <Label fx:id="enemyTableCardDPLabel3" layoutX="46.0" layoutY="174.0" prefHeight="17.0" prefWidth="19.0" text="DP" />
                </children>
             </Pane>
          </children>
@@ -798,9 +795,8 @@
                   <Label fx:id="tableCardFlavourTextLabel23" layoutX="32.0" layoutY="97.0" text="Flavour Text" />
                   <Label layoutX="2.0" layoutY="114.0" prefHeight="60.0" prefWidth="140.0" text="Special Ability" />
                   <Label layoutX="92.0" layoutY="174.0" prefHeight="17.0" prefWidth="19.0" text="HP" />
-                  <Label layoutY="174.0" text="AP/DP" />
-                  <Label fx:id="tableCardADDPLabel23" layoutX="46.0" layoutY="174.0" prefHeight="17.0" prefWidth="19.0" text="5" />
-                  <Label fx:id="tableCardHPLabel23" layoutX="116.0" layoutY="174.0" prefHeight="17.0" prefWidth="0.0" text="5" />
+                  <Label layoutY="174.0" text="AP" />
+                  <Label fx:id="tableCardADDPLabel23" layoutX="46.0" layoutY="174.0" prefHeight="17.0" prefWidth="19.0" text="DP" />
                </children>
             </Pane>
          </children>
@@ -820,9 +816,8 @@
                   <Label fx:id="tableCardFlavourTextLabel24" layoutX="32.0" layoutY="97.0" text="Flavour Text" />
                   <Label layoutX="2.0" layoutY="114.0" prefHeight="60.0" prefWidth="140.0" text="Special Ability" />
                   <Label layoutX="92.0" layoutY="174.0" prefHeight="17.0" prefWidth="19.0" text="HP" />
-                  <Label layoutY="174.0" text="AP/DP" />
-                  <Label fx:id="tableCardADDPLabel24" layoutX="46.0" layoutY="174.0" prefHeight="17.0" prefWidth="19.0" text="5" />
-                  <Label fx:id="tableCardHPLabel24" layoutX="116.0" layoutY="174.0" prefHeight="17.0" prefWidth="0.0" text="5" />
+                  <Label layoutY="174.0" text="AP" />
+                  <Label fx:id="tableCardADDPLabel24" layoutX="46.0" layoutY="174.0" prefHeight="17.0" prefWidth="19.0" text="DP" />
                </children>
             </Pane>
          </children>
