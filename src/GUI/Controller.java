@@ -35,8 +35,12 @@ public class Controller implements Initializable {
     @FXML private Label handCardFlavourText1;
     @FXML private Label handCardADDP1;
     @FXML private Label handCardHP1;
+    @FXML private Label tableCardNameLabel2;
+    @FXML private Label tableCardMcLabel2;
+    @FXML private Label tableCardFlavourTextLabel2;
+    @FXML private Label tableCardADDPLabel2;
+    @FXML private Label tableCardHPLabel2;
 
-  //  data[0].tableCardNameLabel;
 
     @FXML private Pane pane1;
 //    @FXML private Pane pane2;
@@ -71,32 +75,59 @@ public class Controller implements Initializable {
                 new BasicCreatureCard(10, "Raisin", "Dried up grapes pretending to be candy", "does not exist yet",0, 1, 1,1,1))
         );
         //Player Hand
-        handCardName1.setText(playerAHand.get(0).getName());
-        handCardMc1.setText(Integer.toString(playerAHand.get(0).getManaCost()));
-        handCardFlavourText1.setText((playerAHand.get(0).getFlavourText()));
-       //tableCardSpecialAbilityLabel1.setText((playerADeck.get(0).getSp()));
-        handCardADDP1.setText(Integer.toString(((BasicCreatureCard)playerAHand.get(0)).getAttack()));
-        handCardHP1.setText(Integer.toString(((BasicCreatureCard)playerAHand.get(0)).getHealth()));
-        //rectangle1.opacityProperty().setValue(0);
+            handCardName1.setText(playerAHand.get(0).getName());
+            handCardMc1.setText(Integer.toString(playerAHand.get(0).getManaCost()));
+            handCardFlavourText1.setText((playerAHand.get(0).getFlavourText()));
+            //tableCardSpecialAbilityLabel1.setText((playerADeck.get(0).getSp()));
+            handCardADDP1.setText(Integer.toString(((BasicCreatureCard) playerAHand.get(0)).getAttack()));
+            handCardHP1.setText(Integer.toString(((BasicCreatureCard) playerAHand.get(0)).getHealth()));
+            //rectangle1.opacityProperty().setValue(0);
+
+
 
     }
     public void mouseClick() {
         pane1.setOnMouseClicked((MouseEvent event) -> {
-
+            int index = tableCards.size();
 //            Dragboard db = pane1.startDragAndDrop(TransferMode.MOVE);
             card = (BasicCreatureCard)playerAHand.get(0);
             tableCards.add(card);
             playerAHand.remove(0);
-
-            tableCardNameLabel1.setText(tableCards.get(0).getName());
-            tableCardMcLabel1.setText(Integer.toString(tableCards.get(0).getManaCost()));
-            tableCardFlavourTextLabel1.setText((tableCards.get(0).getFlavourText()));
-            //tableCardSpecialAbilityLabel1.setText((playerADeck.get(0).getSp()));
-            tableCardADDPLabel1.setText(Integer.toString(((BasicCreatureCard) tableCards.get(0)).getAttack()));
-            tableCardHPLabel1.setText(Integer.toString(((BasicCreatureCard) tableCards.get(0)).getHealth()));
+            updateCards();
 
             event.consume();
         });
+    }
+    public void updateCards(){
+        if(1 <= playerAHand.size()) {
+            handCardName1.setText(playerAHand.get(0).getName());
+            handCardMc1.setText(Integer.toString(playerAHand.get(0).getManaCost()));
+            handCardFlavourText1.setText((playerAHand.get(0).getFlavourText()));
+            handCardADDP1.setText(Integer.toString(((BasicCreatureCard) playerAHand.get(0)).getAttack()));
+            handCardHP1.setText(Integer.toString(((BasicCreatureCard) playerAHand.get(0)).getHealth()));
+        }
+        if(1 <= tableCards.size()) {
+            tableCardNameLabel1.setText(tableCards.get(0).getName());
+            tableCardMcLabel1.setText(Integer.toString(tableCards.get(0).getManaCost()));
+            tableCardFlavourTextLabel1.setText((tableCards.get(0).getFlavourText()));
+            tableCardADDPLabel1.setText(Integer.toString(((BasicCreatureCard)tableCards.get(0)).getAttack()));
+            tableCardHPLabel1.setText(Integer.toString(((BasicCreatureCard)tableCards.get(0)).getHealth()));
+        }     if(2 <= tableCards.size()) {
+            tableCardNameLabel2.setText(tableCards.get(1).getName());
+            tableCardMcLabel2.setText(Integer.toString(tableCards.get(1).getManaCost()));
+            tableCardFlavourTextLabel2.setText((tableCards.get(1).getFlavourText()));
+            tableCardADDPLabel2.setText(Integer.toString(((BasicCreatureCard)tableCards.get(1)).getAttack()));
+            tableCardHPLabel2.setText(Integer.toString(((BasicCreatureCard)tableCards.get(1)).getHealth()));
+        }
+
+        if(1 > playerAHand.size()) {
+            handCardName1.setText("");
+            handCardMc1.setText("");
+            handCardFlavourText1.setText("");
+            handCardADDP1.setText("");
+            handCardHP1.setText("");
+        }
+
     }
 
 }
