@@ -156,121 +156,7 @@
             <Font size="36.0" />
          </font>
       </Label>
-      <AnchorPane fx:id="pane1" layoutX="232.0" layoutY="382.0" onMouseClicked="#mouseClick" prefHeight="100.0" prefWidth="70.0">
-         <children>
-            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#c5bbd7" height="200.0" layoutX="1.0" layoutY="4.0" onMouseClicked="#mouseClick" stroke="BLACK" strokeType="INSIDE" width="140.0" />
-            <Label fx:id="handCardName1" layoutX="9.0" layoutY="14.0" />
-            <Label fx:id="handCardMc1" layoutX="118.0" layoutY="14.0" prefHeight="17.0" prefWidth="16.0" />
-            <Label fx:id="handCardFlavourText1" layoutX="38.0" layoutY="104.0" />
-            <Label layoutX="2.0" layoutY="121.0" prefHeight="60.0" prefWidth="140.0" />
-            <Label fx:id="handCardADDP1" layoutX="49.0" layoutY="178.0" prefHeight="17.0" prefWidth="0.0" />
-            <Label fx:id="handCardHP1" layoutX="107.0" layoutY="178.0" prefHeight="17.0" prefWidth="19.0" />
-         </children>
-      </AnchorPane>
-      <AnchorPane layoutX="567.0" layoutY="383.0" prefHeight="100.0" prefWidth="70.0">
-         <children>
-            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#c5bbd7" height="200.0" layoutX="1.0" layoutY="4.0" stroke="BLACK" strokeType="INSIDE" width="140.0" />
-            <Label layoutX="23.0" layoutY="14.0" text="Name" />
-            <Label layoutX="80.0" layoutY="14.0" text="MC" />
-            <ImageView fitHeight="162.0" fitWidth="73.0" layoutX="34.0" layoutY="31.0" pickOnBounds="true" preserveRatio="true">
-               <image>
-                  <Image url="@img/candycard.jpg" />
-               </image>
-            </ImageView>
-            <Label layoutX="38.0" layoutY="104.0" text="Flavour Text" />
-            <Label layoutX="2.0" layoutY="121.0" prefHeight="60.0" prefWidth="140.0" text="Special Ability" />
-            <Label layoutX="7.0" layoutY="178.0" text="AP/DP" />
-            <Label layoutX="49.0" layoutY="178.0" prefHeight="17.0" prefWidth="0.0" text="5" />
-            <Label layoutX="85.0" layoutY="178.0" prefHeight="17.0" prefWidth="19.0" text="HP" />
-            <Label layoutX="107.0" layoutY="178.0" prefHeight="17.0" prefWidth="19.0" text="5" />
-         </children>
-      </AnchorPane>
-      <AnchorPane layoutX="730.0" layoutY="383.0" prefHeight="100.0" prefWidth="70.0">
-         <children>
-            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#c5bbd7" height="200.0" layoutX="1.0" layoutY="4.0" stroke="BLACK" strokeType="INSIDE" width="140.0" />
-            <Label layoutX="23.0" layoutY="14.0" text="Name" />
-            <Label layoutX="80.0" layoutY="14.0" text="MC" />
-            <ImageView fitHeight="162.0" fitWidth="73.0" layoutX="34.0" layoutY="31.0" pickOnBounds="true" preserveRatio="true">
-               <image>
-                  <Image url="@img/candycard.jpg" />
-               </image>
-            </ImageView>
-            <Label layoutX="38.0" layoutY="104.0" text="Flavour Text" />
-            <Label layoutX="2.0" layoutY="121.0" prefHeight="60.0" prefWidth="140.0" text="Special Ability" />
-            <Label layoutX="7.0" layoutY="178.0" text="AP/DP" />
-            <Label layoutX="49.0" layoutY="178.0" prefHeight="17.0" prefWidth="0.0" text="5" />
-            <Label layoutX="85.0" layoutY="178.0" prefHeight="17.0" prefWidth="19.0" text="HP" />
-            <Label layoutX="107.0" layoutY="178.0" prefHeight="17.0" prefWidth="19.0" text="5" />
-         </children>
-      </AnchorPane>
-      <AnchorPane layoutX="896.0" layoutY="383.0" prefHeight="100.0" prefWidth="70.0">
-         <children>
-            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#c5bbd7" height="200.0" layoutX="1.0" layoutY="4.0" stroke="BLACK" strokeType="INSIDE" width="140.0" />
-            <Label layoutX="23.0" layoutY="14.0" text="Name" />
-            <Label layoutX="80.0" layoutY="14.0" text="MC" />
-            <ImageView fitHeight="162.0" fitWidth="73.0" layoutX="34.0" layoutY="31.0" pickOnBounds="true" preserveRatio="true">
-               <image>
-                  <Image url="@img/candycard.jpg" />
-               </image>
-            </ImageView>
-            <Label layoutX="38.0" layoutY="104.0" text="Flavour Text" />
-            <Label layoutX="2.0" layoutY="121.0" prefHeight="60.0" prefWidth="140.0" text="Special Ability" />
-            <Label layoutX="7.0" layoutY="178.0" text="AP/DP" />
-            <Label layoutX="49.0" layoutY="178.0" prefHeight="17.0" prefWidth="0.0" text="5" />
-            <Label layoutX="85.0" layoutY="178.0" prefHeight="17.0" prefWidth="19.0" text="HP" />
-            <Label layoutX="107.0" layoutY="178.0" prefHeight="17.0" prefWidth="19.0" text="5" />
-         </children>
-      </AnchorPane>
-      <AnchorPane layoutX="251.0" layoutY="599.0" prefHeight="100.0" prefWidth="70.0">
-         <children>
-            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#c5bbd7" height="100.0" layoutX="1.0" layoutY="2.0" stroke="BLACK" strokeType="INSIDE" width="70.0" />
-            <ImageView fitHeight="81.0" fitWidth="36.5" layoutX="17.0" layoutY="15.0" pickOnBounds="true" preserveRatio="true">
-               <image>
-                  <Image url="@img/candycard.jpg" />
-               </image>
-            </ImageView>
-            <Label layoutX="5.0" layoutY="5.0" text="Name">
-               <font>
-                  <Font size="6.0" />
-               </font>
-            </Label>
-            <Label layoutX="52.0" layoutY="5.0" text="MC">
-               <font>
-                  <Font size="6.0" />
-               </font>
-            </Label>
-            <Label layoutX="22.0" layoutY="52.0" text="Flavour Text">
-               <font>
-                  <Font size="6.0" />
-               </font>
-            </Label>
-            <Label layoutX="3.0" layoutY="62.0" prefHeight="24.0" prefWidth="65.0" text="Special Ability">
-               <font>
-                  <Font size="6.0" />
-               </font>
-            </Label>
-            <Label layoutX="8.0" layoutY="89.0" text="AP/DP">
-               <font>
-                  <Font size="6.0" />
-               </font>
-            </Label>
-            <Label layoutX="29.0" layoutY="85.0" prefHeight="17.0" prefWidth="19.0" text="5">
-               <font>
-                  <Font size="6.0" />
-               </font>
-            </Label>
-            <Label layoutX="43.0" layoutY="85.0" prefHeight="17.0" prefWidth="19.0" text="HP">
-               <font>
-                  <Font size="6.0" />
-               </font>
-            </Label>
-            <Label layoutX="55.0" layoutY="85.0" prefHeight="17.0" prefWidth="0.0" text="5">
-               <font>
-                  <Font size="6.0" />
-               </font>
-            </Label>
-         </children>
-      </AnchorPane>
+      <AnchorPane layoutX="251.0" layoutY="599.0" prefHeight="100.0" prefWidth="70.0" />
       <AnchorPane layoutX="328.0" layoutY="599.0" prefHeight="100.0" prefWidth="70.0">
          <children>
             <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#c5bbd7" height="100.0" layoutX="1.0" layoutY="2.0" stroke="BLACK" strokeType="INSIDE" width="70.0" />
@@ -736,66 +622,12 @@
                   <Label fx:id="tableCardFlavourTextLabel1" layoutX="32.0" layoutY="97.0" text="Flavour Text" />
                   <Label layoutX="2.0" layoutY="114.0" prefHeight="60.0" prefWidth="140.0" text="Special Ability" />
                   <Label layoutX="92.0" layoutY="174.0" prefHeight="17.0" prefWidth="19.0" text="HP" />
-                  <Label layoutY="174.0" text="AP/DP" />
-                  <Label fx:id="tableCardADDPLabel1" layoutX="46.0" layoutY="174.0" prefHeight="17.0" prefWidth="19.0" text="5" />
+                  <Label layoutY="174.0" text="AP 5" />
+                  <Label fx:id="tableCardADDPLabel1" layoutX="46.0" layoutY="174.0" prefHeight="17.0" prefWidth="29.0" text="DP 5" />
                   <Label fx:id="tableCardHPLabel1" layoutX="116.0" layoutY="174.0" prefHeight="17.0" prefWidth="0.0" text="5" />
                </children>
             </Pane>
          </children></AnchorPane>
-      <AnchorPane layoutX="569.0" layoutY="137.0" prefHeight="100.0" prefWidth="70.0">
-         <children>
-            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#c5bbd7" height="200.0" layoutX="1.0" layoutY="4.0" stroke="BLACK" strokeType="INSIDE" width="140.0" />
-            <Label layoutX="23.0" layoutY="14.0" text="Name" />
-            <Label layoutX="80.0" layoutY="14.0" text="MC" />
-            <ImageView fitHeight="162.0" fitWidth="73.0" layoutX="34.0" layoutY="31.0" pickOnBounds="true" preserveRatio="true">
-               <image>
-                  <Image url="@img/candycard.jpg" />
-               </image>
-            </ImageView>
-            <Label layoutX="38.0" layoutY="104.0" text="Flavour Text" />
-            <Label layoutX="2.0" layoutY="121.0" prefHeight="60.0" prefWidth="140.0" text="Special Ability" />
-            <Label layoutX="7.0" layoutY="178.0" text="AP/DP" />
-            <Label layoutX="49.0" layoutY="178.0" prefHeight="17.0" prefWidth="0.0" text="5" />
-            <Label layoutX="85.0" layoutY="178.0" prefHeight="17.0" prefWidth="19.0" text="HP" />
-            <Label layoutX="107.0" layoutY="178.0" prefHeight="17.0" prefWidth="19.0" text="5" />
-         </children>
-      </AnchorPane>
-      <AnchorPane layoutX="730.0" layoutY="137.0" prefHeight="100.0" prefWidth="70.0">
-         <children>
-            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#c5bbd7" height="200.0" layoutX="1.0" layoutY="4.0" stroke="BLACK" strokeType="INSIDE" width="140.0" />
-            <Label layoutX="23.0" layoutY="14.0" text="Name" />
-            <Label layoutX="80.0" layoutY="14.0" text="MC" />
-            <ImageView fitHeight="162.0" fitWidth="73.0" layoutX="34.0" layoutY="31.0" pickOnBounds="true" preserveRatio="true">
-               <image>
-                  <Image url="@img/candycard.jpg" />
-               </image>
-            </ImageView>
-            <Label layoutX="38.0" layoutY="104.0" text="Flavour Text" />
-            <Label layoutX="2.0" layoutY="121.0" prefHeight="60.0" prefWidth="140.0" text="Special Ability" />
-            <Label layoutX="7.0" layoutY="178.0" text="AP/DP" />
-            <Label layoutX="49.0" layoutY="178.0" prefHeight="17.0" prefWidth="0.0" text="5" />
-            <Label layoutX="85.0" layoutY="178.0" prefHeight="17.0" prefWidth="19.0" text="HP" />
-            <Label layoutX="107.0" layoutY="178.0" prefHeight="17.0" prefWidth="19.0" text="5" />
-         </children>
-      </AnchorPane>
-      <AnchorPane layoutX="896.0" layoutY="138.0" prefHeight="100.0" prefWidth="70.0">
-         <children>
-            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#c5bbd7" height="200.0" layoutX="1.0" layoutY="4.0" stroke="BLACK" strokeType="INSIDE" width="140.0" />
-            <Label layoutX="23.0" layoutY="14.0" text="Name" />
-            <Label layoutX="80.0" layoutY="14.0" text="MC" />
-            <ImageView fitHeight="162.0" fitWidth="73.0" layoutX="34.0" layoutY="31.0" pickOnBounds="true" preserveRatio="true">
-               <image>
-                  <Image url="@img/candycard.jpg" />
-               </image>
-            </ImageView>
-            <Label layoutX="38.0" layoutY="104.0" text="Flavour Text" />
-            <Label layoutX="2.0" layoutY="121.0" prefHeight="60.0" prefWidth="140.0" text="Special Ability" />
-            <Label layoutX="7.0" layoutY="178.0" text="AP/DP" />
-            <Label layoutX="49.0" layoutY="178.0" prefHeight="17.0" prefWidth="0.0" text="5" />
-            <Label layoutX="85.0" layoutY="178.0" prefHeight="17.0" prefWidth="19.0" text="HP" />
-            <Label layoutX="107.0" layoutY="178.0" prefHeight="17.0" prefWidth="19.0" text="5" />
-         </children>
-      </AnchorPane>
       <AnchorPane layoutX="395.0" layoutY="384.0" prefHeight="200.0" prefWidth="151.0">
          <children>
             <Pane fx:id="pane2" layoutX="6.0" prefHeight="200.0" prefWidth="140.0">
@@ -833,7 +665,7 @@
                   <Label fx:id="tableCardFlavourTextLabel2" layoutX="32.0" layoutY="97.0" text="Flavour Text" />
                   <Label layoutX="2.0" layoutY="114.0" prefHeight="60.0" prefWidth="140.0" text="Special Ability" />
                   <Label layoutX="92.0" layoutY="174.0" prefHeight="17.0" prefWidth="19.0" text="HP" />
-                  <Label layoutY="174.0" text="AP/DP" />
+                  <Label fx:id="enemyTable" layoutY="174.0" prefHeight="17.0" prefWidth="36.0" />
                   <Label fx:id="tableCardADDPLabel2" layoutX="46.0" layoutY="174.0" prefHeight="17.0" prefWidth="19.0" text="5" />
                   <Label fx:id="tableCardHPLabel2" layoutX="116.0" layoutY="174.0" prefHeight="17.0" prefWidth="0.0" text="5" />
                </children>
@@ -929,5 +761,205 @@
             </ImageView>
          </children>
       </AnchorPane>
+      <AnchorPane layoutX="568.0" layoutY="140.0" prefHeight="200.0" prefWidth="140.0">
+         <children>
+            <Pane prefHeight="200.0" prefWidth="140.0">
+               <children>
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#c5bbd7" height="200.0" stroke="BLACK" strokeType="INSIDE" width="140.0" />
+                  <ImageView fitHeight="89.0" fitWidth="71.0" layoutX="36.0" layoutY="28.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@img/candycard.jpg" />
+                     </image>
+                  </ImageView>
+                  <Label fx:id="tableCardNameLabel22" layoutX="14.0" layoutY="14.0" text="Name" />
+                  <Label fx:id="tableCardMcLabel22" layoutX="101.0" layoutY="15.0" text="MC" />
+                  <Label fx:id="tableCardFlavourTextLabel22" layoutX="32.0" layoutY="97.0" text="Flavour Text" />
+                  <Label layoutX="2.0" layoutY="114.0" prefHeight="60.0" prefWidth="140.0" text="Special Ability" />
+                  <Label layoutX="92.0" layoutY="174.0" prefHeight="17.0" prefWidth="19.0" text="HP" />
+                  <Label fx:id="enemyTableCardADLabel3" layoutY="174.0" text="AP/DP" />
+                  <Label fx:id="enemyTableCardDPLabel3" layoutX="46.0" layoutY="174.0" prefHeight="17.0" prefWidth="19.0" text="5" />
+                  <Label fx:id="tableCardHPLabel22" layoutX="116.0" layoutY="174.0" prefHeight="17.0" prefWidth="0.0" text="5" />
+               </children>
+            </Pane>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="731.0" layoutY="140.0" prefHeight="200.0" prefWidth="140.0">
+         <children>
+            <Pane prefHeight="200.0" prefWidth="140.0">
+               <children>
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#c5bbd7" height="200.0" stroke="BLACK" strokeType="INSIDE" width="140.0" />
+                  <ImageView fitHeight="89.0" fitWidth="71.0" layoutX="36.0" layoutY="28.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@img/candycard.jpg" />
+                     </image>
+                  </ImageView>
+                  <Label fx:id="tableCardNameLabel23" layoutX="14.0" layoutY="14.0" text="Name" />
+                  <Label fx:id="tableCardMcLabel23" layoutX="101.0" layoutY="15.0" text="MC" />
+                  <Label fx:id="tableCardFlavourTextLabel23" layoutX="32.0" layoutY="97.0" text="Flavour Text" />
+                  <Label layoutX="2.0" layoutY="114.0" prefHeight="60.0" prefWidth="140.0" text="Special Ability" />
+                  <Label layoutX="92.0" layoutY="174.0" prefHeight="17.0" prefWidth="19.0" text="HP" />
+                  <Label layoutY="174.0" text="AP/DP" />
+                  <Label fx:id="tableCardADDPLabel23" layoutX="46.0" layoutY="174.0" prefHeight="17.0" prefWidth="19.0" text="5" />
+                  <Label fx:id="tableCardHPLabel23" layoutX="116.0" layoutY="174.0" prefHeight="17.0" prefWidth="0.0" text="5" />
+               </children>
+            </Pane>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="897.0" layoutY="140.0" prefHeight="200.0" prefWidth="140.0">
+         <children>
+            <Pane prefHeight="200.0" prefWidth="140.0">
+               <children>
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#c5bbd7" height="200.0" stroke="BLACK" strokeType="INSIDE" width="140.0" />
+                  <ImageView fitHeight="89.0" fitWidth="71.0" layoutX="36.0" layoutY="28.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@img/candycard.jpg" />
+                     </image>
+                  </ImageView>
+                  <Label fx:id="tableCardNameLabel24" layoutX="14.0" layoutY="14.0" text="Name" />
+                  <Label fx:id="tableCardMcLabel24" layoutX="101.0" layoutY="15.0" text="MC" />
+                  <Label fx:id="tableCardFlavourTextLabel24" layoutX="32.0" layoutY="97.0" text="Flavour Text" />
+                  <Label layoutX="2.0" layoutY="114.0" prefHeight="60.0" prefWidth="140.0" text="Special Ability" />
+                  <Label layoutX="92.0" layoutY="174.0" prefHeight="17.0" prefWidth="19.0" text="HP" />
+                  <Label layoutY="174.0" text="AP/DP" />
+                  <Label fx:id="tableCardADDPLabel24" layoutX="46.0" layoutY="174.0" prefHeight="17.0" prefWidth="19.0" text="5" />
+                  <Label fx:id="tableCardHPLabel24" layoutX="116.0" layoutY="174.0" prefHeight="17.0" prefWidth="0.0" text="5" />
+               </children>
+            </Pane>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="223.0" layoutY="385.0" prefHeight="200.0" prefWidth="151.0">
+         <children>
+            <Pane fx:id="pane21" layoutX="6.0" prefHeight="200.0" prefWidth="140.0">
+               <children>
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#c5bbd7" height="200.0" stroke="BLACK" strokeType="INSIDE" width="140.0" />
+                  <ImageView fitHeight="89.0" fitWidth="71.0" layoutX="36.0" layoutY="28.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@img/candycard.jpg" />
+                     </image>
+                  </ImageView>
+                  <Label fx:id="tableCardNameLabel211" layoutX="14.0" layoutY="14.0" text="Name" />
+                  <Label fx:id="tableCardMcLabel211" layoutX="101.0" layoutY="15.0" text="MC" />
+                  <Label fx:id="tableCardFlavourTextLabel211" layoutX="32.0" layoutY="97.0" text="Flavour Text" />
+                  <Label layoutX="2.0" layoutY="114.0" prefHeight="60.0" prefWidth="140.0" text="Special Ability" />
+                  <Label layoutX="92.0" layoutY="174.0" prefHeight="17.0" prefWidth="19.0" text="HP" />
+                  <Label layoutY="174.0" text="AP/DP" />
+                  <Label fx:id="tableCardADDPLabel211" layoutX="46.0" layoutY="174.0" prefHeight="17.0" prefWidth="19.0" text="5" />
+                  <Label fx:id="tableCardHPLabel211" layoutX="116.0" layoutY="174.0" prefHeight="17.0" prefWidth="0.0" text="5" />
+               </children>
+            </Pane>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="570.0" layoutY="385.0" prefHeight="200.0" prefWidth="140.0">
+         <children>
+            <Pane prefHeight="200.0" prefWidth="140.0">
+               <children>
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#c5bbd7" height="200.0" stroke="BLACK" strokeType="INSIDE" width="140.0" />
+                  <ImageView fitHeight="89.0" fitWidth="71.0" layoutX="36.0" layoutY="28.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@img/candycard.jpg" />
+                     </image>
+                  </ImageView>
+                  <Label fx:id="tableCardNameLabel25" layoutX="14.0" layoutY="14.0" text="Name" />
+                  <Label fx:id="tableCardMcLabel25" layoutX="101.0" layoutY="15.0" text="MC" />
+                  <Label fx:id="tableCardFlavourTextLabel25" layoutX="32.0" layoutY="97.0" text="Flavour Text" />
+                  <Label layoutX="2.0" layoutY="114.0" prefHeight="60.0" prefWidth="140.0" text="Special Ability" />
+                  <Label layoutX="92.0" layoutY="174.0" prefHeight="17.0" prefWidth="19.0" text="HP" />
+                  <Label layoutY="174.0" text="AP/DP" />
+                  <Label fx:id="tableCardADDPLabel25" layoutX="46.0" layoutY="174.0" prefHeight="17.0" prefWidth="19.0" text="5" />
+                  <Label fx:id="tableCardHPLabel25" layoutX="116.0" layoutY="174.0" prefHeight="17.0" prefWidth="0.0" text="5" />
+               </children>
+            </Pane>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="732.0" layoutY="385.0" prefHeight="200.0" prefWidth="140.0">
+         <children>
+            <Pane prefHeight="200.0" prefWidth="140.0">
+               <children>
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#c5bbd7" height="200.0" stroke="BLACK" strokeType="INSIDE" width="140.0" />
+                  <ImageView fitHeight="89.0" fitWidth="71.0" layoutX="36.0" layoutY="28.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@img/candycard.jpg" />
+                     </image>
+                  </ImageView>
+                  <Label fx:id="tableCardNameLabel26" layoutX="14.0" layoutY="14.0" text="Name" />
+                  <Label fx:id="tableCardMcLabel26" layoutX="101.0" layoutY="15.0" text="MC" />
+                  <Label fx:id="tableCardFlavourTextLabel26" layoutX="32.0" layoutY="97.0" text="Flavour Text" />
+                  <Label layoutX="2.0" layoutY="114.0" prefHeight="60.0" prefWidth="140.0" text="Special Ability" />
+                  <Label layoutX="92.0" layoutY="174.0" prefHeight="17.0" prefWidth="19.0" text="HP" />
+                  <Label layoutY="174.0" text="AP/DP" />
+                  <Label fx:id="tableCardADDPLabel26" layoutX="46.0" layoutY="174.0" prefHeight="17.0" prefWidth="19.0" text="5" />
+                  <Label fx:id="tableCardHPLabel26" layoutX="116.0" layoutY="174.0" prefHeight="17.0" prefWidth="0.0" text="5" />
+               </children>
+            </Pane>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="897.0" layoutY="384.0" prefHeight="200.0" prefWidth="140.0">
+         <children>
+            <Pane prefHeight="200.0" prefWidth="140.0">
+               <children>
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#c5bbd7" height="200.0" stroke="BLACK" strokeType="INSIDE" width="140.0" />
+                  <ImageView fitHeight="89.0" fitWidth="71.0" layoutX="36.0" layoutY="28.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@img/candycard.jpg" />
+                     </image>
+                  </ImageView>
+                  <Label fx:id="tableCardNameLabel261" layoutX="14.0" layoutY="14.0" text="Name" />
+                  <Label fx:id="tableCardMcLabel261" layoutX="101.0" layoutY="15.0" text="MC" />
+                  <Label fx:id="tableCardFlavourTextLabel261" layoutX="32.0" layoutY="97.0" text="Flavour Text" />
+                  <Label layoutX="2.0" layoutY="114.0" prefHeight="60.0" prefWidth="140.0" text="Special Ability" />
+                  <Label layoutX="92.0" layoutY="174.0" prefHeight="17.0" prefWidth="19.0" text="HP" />
+                  <Label layoutY="174.0" text="AP/DP" />
+                  <Label fx:id="tableCardADDPLabel261" layoutX="46.0" layoutY="174.0" prefHeight="17.0" prefWidth="19.0" text="5" />
+                  <Label fx:id="tableCardHPLabel261" layoutX="116.0" layoutY="174.0" prefHeight="17.0" prefWidth="0.0" text="5" />
+               </children>
+            </Pane>
+         </children>
+      </AnchorPane>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#c5bbd7" height="100.0" layoutX="120.0" layoutY="406.0" stroke="BLACK" strokeType="INSIDE" width="70.0" />
+      <ImageView fitHeight="81.0" fitWidth="36.5" layoutX="137.0" layoutY="522.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@img/candycard.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="146.0" layoutY="578.0" text="Name">
+         <font>
+            <Font size="6.0" />
+         </font>
+      </Label>
+      <Label layoutX="173.0" layoutY="576.0" text="MC">
+         <font>
+            <Font size="6.0" />
+         </font>
+      </Label>
+      <Label layoutX="130.0" layoutY="592.0" text="Flavour Text">
+         <font>
+            <Font size="6.0" />
+         </font>
+      </Label>
+      <Label layoutX="106.0" layoutY="608.0" prefHeight="24.0" prefWidth="65.0" text="Special Ability">
+         <font>
+            <Font size="6.0" />
+         </font>
+      </Label>
+      <Label layoutX="51.0" layoutY="614.0" text="AP/DP">
+         <font>
+            <Font size="6.0" />
+         </font>
+      </Label>
+      <Label layoutX="80.0" layoutY="594.0" prefHeight="17.0" prefWidth="19.0" text="5">
+         <font>
+            <Font size="6.0" />
+         </font>
+      </Label>
+      <Label layoutX="56.0" layoutY="589.0" prefHeight="17.0" prefWidth="0.0" text="5">
+         <font>
+            <Font size="6.0" />
+         </font>
+      </Label>
+      <Label layoutX="157.0" layoutY="618.0" prefHeight="17.0" prefWidth="19.0" text="HP">
+         <font>
+            <Font size="6.0" />
+         </font>
+      </Label>
    </children>
 </Pane>
