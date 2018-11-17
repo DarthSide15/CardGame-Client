@@ -5,16 +5,17 @@
 <?import javafx.scene.layout.AnchorPane?>
 
 
-<AnchorPane prefHeight="600.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GUI.controllers.CardController">
+<?import javafx.scene.control.Label?>
+<AnchorPane prefHeight="600.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GUI.CardController">
     <children>
-        <TextField fx:id="defencePower" layoutX="93.0" layoutY="547.0" prefHeight="27.0" prefWidth="79.0" />
-        <TextField fx:id="manaCost" layoutX="251.0" layoutY="28.0" prefHeight="27.0" prefWidth="135.0" />
+        <Label fx:id="defencePower" layoutX="93.0" layoutY="547.0" prefHeight="27.0" prefWidth="79.0" />
+        <Label fx:id="manaCost" layoutX="251.0" layoutY="28.0" prefHeight="27.0" prefWidth="135.0" />
         <ImageView fx:id="cardImg" fitHeight="259.0" fitWidth="345.0" layoutX="28.0" layoutY="55.0" pickOnBounds="true" preserveRatio="true" />
-        <TextField fx:id="cardName" layoutX="34.0" layoutY="28.0" />
-        <TextField fx:id="flavourText" layoutX="29.0" layoutY="314.0" prefHeight="55.0" prefWidth="345.0" />
-        <TextField fx:id="specialAbility" layoutX="28.0" layoutY="378.0" />
-        <TextField fx:id="magicAbility" layoutX="28.0" layoutY="415.0" />
-        <TextField fx:id="attackPower" layoutX="14.0" layoutY="547.0" prefHeight="27.0" prefWidth="79.0" />
-        <TextField fx:id="health" layoutX="314.0" layoutY="547.0" prefHeight="27.0" prefWidth="72.0" />
+        <Label fx:id="cardName" layoutX="34.0" layoutY="28.0" />
+        <Label fx:id="flavourText" layoutX="29.0" layoutY="314.0" prefHeight="55.0" prefWidth="345.0" />
+        <Label fx:id="specialAbility" layoutX="28.0" layoutY="378.0" />
+        <Label fx:id="magicAbility" layoutX="28.0" layoutY="415.0" />
+        <Label fx:id="attackPower" layoutX="14.0" layoutY="547.0" prefHeight="27.0" prefWidth="79.0" />
+        <Label fx:id="health" layoutX="314.0" layoutY="547.0" prefHeight="27.0" prefWidth="72.0" />
     </children>
 </AnchorPane>
