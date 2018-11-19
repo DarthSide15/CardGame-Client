@@ -7,17 +7,17 @@ import javafx.scene.layout.Pane;
 import java.net.URL;
 
 public class Data {
-    @FXML public Pane id;
-    @FXML public Label name;
-    @FXML public Label manaCost;
-    @FXML public Label img;
-    @FXML public Label flavourText;
-    @FXML public Label specialAbility;
-    @FXML public Label attackPower;
-    @FXML public Label defencePower;
-    @FXML public Label health;
+    public int id;
+    public String name;
+    public int manaCost;
+    public String img;
+    public String flavourText;
+    public String specialAbility;
+    public int attackPower;
+    public int defencePower;
+    public int health;
 
-    public Data(Pane id, Label name, Label manaCost, Label img, Label flavourText, Label specialAbility, Label attackPower, Label defencePower, Label health) {
+    public Data(int id, String name, int manaCost, String img, String flavourText, String specialAbility, int attackPower, int defencePower, int health) {
         this.id = id;
         this.name = name;
         this.manaCost = manaCost;
@@ -29,75 +29,75 @@ public class Data {
         this.health = health;
     }
 
-    public Pane getId() {
+    public int getId() {
         return id;
     }
 
-    public void setId(Pane id) {
+    public void setId(int id) {
         this.id = id;
     }
 
-    public Label getName() {
+    public String getName() {
         return name;
     }
 
-    public void setName(Label name) {
+    public void setName(String name) {
         this.name = name;
     }
 
-    public Label getManaCost() {
+    public int getManaCost() {
         return manaCost;
     }
 
-    public void setManaCost(Label manaCost) {
+    public void setManaCost(int manaCost) {
         this.manaCost = manaCost;
     }
 
-    public Label getImg() {
+    public String getImg() {
         return img;
     }
 
-    public void setImg(Label img) {
+    public void setImg(String img) {
         this.img = img;
     }
 
-    public Label getFlavourText() {
+    public String getFlavourText() {
         return flavourText;
     }
 
-    public void setFlavourText(Label flavourText) {
+    public void setFlavourText(String flavourText) {
         this.flavourText = flavourText;
     }
 
-    public Label getSpecialAbility() {
+    public String getSpecialAbility() {
         return specialAbility;
     }
 
-    public void setSpecialAbility(Label specialAbility) {
+    public void setSpecialAbility(int specialAbility) {
         this.specialAbility = specialAbility;
     }
 
-    public Label getAttackPower() {
+    public int getAttackPower() {
         return attackPower;
     }
 
-    public void setAttackPower(Label attackPower) {
+    public void setAttackPower(int attackPower) {
         this.attackPower = attackPower;
     }
 
-    public Label getDefencePower() {
+    public int getDefencePower() {
         return defencePower;
     }
 
-    public void setDefencePower(Label defencePower) {
+    public void setDefencePower(int defencePower) {
         this.defencePower = defencePower;
     }
 
-    public Label getHealth() {
+    public int getHealth() {
         return health;
     }
 
-    public void setHealth(Label health) {
+    public void setHealth(int health) {
         this.health = health;
     }
 }
