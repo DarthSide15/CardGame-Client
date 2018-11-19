@@ -12,12 +12,12 @@ public class Data {
     public int manaCost;
     public String img;
     public String flavourText;
-    public int specialAbility;
+    public String specialAbility;
     public int attackPower;
     public int defencePower;
     public int health;
 
-    public Data(int id, String name, int manaCost, String img, String flavourText, int specialAbility, int attackPower, int defencePower, int health) {
+    public Data(int id, String name, int manaCost, String img, String flavourText, String specialAbility, int attackPower, int defencePower, int health) {
         this.id = id;
         this.name = name;
         this.manaCost = manaCost;
@@ -69,7 +69,7 @@ public class Data {
         this.flavourText = flavourText;
     }
 
-    public int getSpecialAbility() {
+    public String getSpecialAbility() {
         return specialAbility;
     }
 
