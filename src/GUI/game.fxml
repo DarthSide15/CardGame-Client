@@ -3,7 +3,6 @@
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.control.ListView?>
 <?import javafx.scene.control.Separator?>
-<?import javafx.scene.control.SplitPane?>
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
@@ -19,108 +18,14 @@
             </image>
         </ImageView>
         <Separator layoutX="51.0" layoutY="365.0" prefHeight="0.0" prefWidth="1172.0" />
-        <HBox fx:id="enemyHand" layoutX="333.0" layoutY="55.0" prefHeight="144.0" prefWidth="587.0">
-            <children>
-                <SplitPane dividerPositions="0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5" prefHeight="114.0" prefWidth="668.0">
-                    <items>
-                        <ListView fx:id="enemyHandCards" nodeOrientation="LEFT_TO_RIGHT" orientation="HORIZONTAL" prefHeight="102.0" prefWidth="19.0" />
-                        <AnchorPane fx:id="enemyHandCard1" prefHeight="98.0" prefWidth="0.0">
-                            <children>
-                                <ImageView fitHeight="118.0" fitWidth="97.0" layoutY="32.0" pickOnBounds="true" preserveRatio="true">
-                                    <image>
-                                        <Image url="@img/candycard1.jpg" />
-                                    </image>
-                                </ImageView>
-                            </children>
-                        </AnchorPane>
-                        <AnchorPane fx:id="enemyHandCard2" prefHeight="200.0" prefWidth="200.0">
-                            <children>
-                                <ImageView fitHeight="118.0" fitWidth="105.0" layoutY="32.0" pickOnBounds="true" preserveRatio="true">
-                                    <image>
-                                        <Image url="@img/candycard1.jpg" />
-                                    </image>
-                                </ImageView>
-                            </children>
-                        </AnchorPane>
-                        <AnchorPane fx:id="enemyHandCard3" prefHeight="200.0" prefWidth="200.0">
-                            <children>
-                                <ImageView fitHeight="118.0" fitWidth="105.0" layoutY="32.0" pickOnBounds="true" preserveRatio="true">
-                                    <image>
-                                        <Image url="@img/candycard1.jpg" />
-                                    </image>
-                                </ImageView>
-                            </children>
-                        </AnchorPane>
-                        <AnchorPane fx:id="enemyHandCard4" prefHeight="200.0" prefWidth="200.0">
-                            <children>
-                                <ImageView fitHeight="118.0" fitWidth="93.0" layoutY="32.0" pickOnBounds="true" preserveRatio="true">
-                                    <image>
-                                        <Image url="@img/candycard1.jpg" />
-                                    </image>
-                                </ImageView>
-                            </children>
-                        </AnchorPane>
-                        <AnchorPane fx:id="enemyHandCard5" prefHeight="200.0" prefWidth="200.0">
-                            <children>
-                                <ImageView fitHeight="118.0" fitWidth="98.0" layoutY="32.0" pickOnBounds="true" preserveRatio="true">
-                                    <image>
-                                        <Image url="@img/candycard1.jpg" />
-                                    </image>
-                                </ImageView>
-                            </children>
-                        </AnchorPane>
-                        <AnchorPane fx:id="enemyHandCard6" prefHeight="113.0" prefWidth="78.0">
-                            <children>
-                                <ImageView fitHeight="118.0" fitWidth="83.0" layoutY="32.0" pickOnBounds="true" preserveRatio="true">
-                                    <image>
-                                        <Image url="@img/candycard1.jpg" />
-                                    </image>
-                                </ImageView>
-                            </children>
-                        </AnchorPane>
-                        <AnchorPane fx:id="enemyHandCard7" prefHeight="98.0" prefWidth="129.0">
-                            <children>
-                                <ImageView fitHeight="118.0" fitWidth="92.0" layoutY="32.0" pickOnBounds="true" preserveRatio="true">
-                                    <image>
-                                        <Image url="@img/candycard1.jpg" />
-                                    </image>
-                                </ImageView>
-                            </children>
-                        </AnchorPane>
-                    </items>
-                </SplitPane>
-            </children>
-        </HBox>
-        <HBox fx:id="playerHand" layoutX="541.0" layoutY="513.0" prefHeight="128.0" prefWidth="210.0">
+        <HBox fx:id="enemyHand" layoutX="333.0" layoutY="55.0" prefHeight="89.0" prefWidth="587.0">
          <children>
-                <SplitPane dividerPositions="0.018018018018018018, 0.42792792792792794, 0.8378378378378378, 0.8738738738738738, 0.9099099099099099, 0.9459459459459459, 0.9819819819819819" prefHeight="116.0" prefWidth="208.0">
-                    <items>
-                        <ListView fx:id="playerHandCards" prefHeight="112.0" prefWidth="0.0" />
-                        <AnchorPane fx:id="playerCard1" prefHeight="98.0" prefWidth="85.0">
-                            <children>
-                                <ImageView fitHeight="118.0" fitWidth="96.0" layoutY="32.0" pickOnBounds="true" preserveRatio="true">
-                                    <image>
-                                        <Image url="@img/candycard1.jpg" />
-                                    </image>
-                                </ImageView>
-                            </children>
-                        </AnchorPane>
-                        <AnchorPane fx:id="playerCard2" prefHeight="103.0" prefWidth="83.0">
-                            <children>
-                                <ImageView fitHeight="118.0" fitWidth="90.0" layoutY="32.0" pickOnBounds="true" preserveRatio="true">
-                                    <image>
-                                        <Image url="@img/candycard1.jpg" />
-                                    </image>
-                                </ImageView>
-                            </children>
-                        </AnchorPane>
-                        <AnchorPane fx:id="playerCard3" prefHeight="200.0" prefWidth="200.0" />
-                        <AnchorPane fx:id="playerCard4" prefHeight="200.0" prefWidth="200.0" />
-                        <AnchorPane fx:id="playerCard5" prefHeight="200.0" prefWidth="200.0" />
-                        <AnchorPane fx:id="playerCard6" prefHeight="200.0" prefWidth="200.0" />
-                        <AnchorPane fx:id="playerCard7" prefHeight="200.0" prefWidth="200.0" />
-                    </items>
-                </SplitPane>
+            <ListView fx:id="enemyHandList" opacity="0.0" prefHeight="81.0" prefWidth="587.0" />
+         </children>
+        </HBox>
+        <HBox fx:id="playerHand" layoutX="327.0" layoutY="576.0" prefHeight="99.0" prefWidth="600.0">
+         <children>
+            <ListView fx:id="playerHandList" opacity="0.0" prefHeight="99.0" prefWidth="600.0" />
          </children>
         </HBox>
       <AnchorPane layoutX="552.0" layoutY="-3.0" prefHeight="55.0" prefWidth="726.0">

@@ -26,4 +26,8 @@ public class GameController {
             enemy.getChildren().addAll();
         }
     }
+    @FXML
+    public void placePlayerTableCards() {
+
+    }
 }
