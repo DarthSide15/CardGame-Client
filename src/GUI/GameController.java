@@ -7,9 +7,15 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class GameController {
+    @FXML
+    private HBox playerHand = new HBox();
+    @FXML
+    private HBox enemyHand = new HBox();
+    @FXML
+    private HBox playerTableCards = new HBox();
+    @FXML
+    private HBox enemyTableCards = new HBox();
 
-    private HBox player = new HBox(5);
-    private HBox enemy = new HBox(5);
 
     @FXML
     private List<Data> data = new ArrayList<Data>;
@@ -17,13 +23,13 @@ public class GameController {
     @FXML
     public void placePlayerHandCards() {
         for(int i = 0; i < data.size(); i++) {
-            player.getChildren().addAll();
+            playerHand.getChildren().addAll();
         }
     }
     @FXML
     public void placeEnemyHandCards(){
         for(int i = 0; i < data.size(); i++) {
-            enemy.getChildren().addAll();
+            enemyHand.getChildren().addAll();
         }
     }
     @FXML
