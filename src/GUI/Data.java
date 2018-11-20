@@ -73,7 +73,7 @@ public class Data {
         return specialAbility;
     }
 
-    public void setSpecialAbility(int specialAbility) {
+    public void setSpecialAbility(String specialAbility) {
         this.specialAbility = specialAbility;
     }
 

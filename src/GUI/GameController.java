@@ -12,7 +12,7 @@ public class GameController {
     private HBox enemy = new HBox(5);
 
     @FXML
-    private List<Data> data = new ArrayList<Data>;
+    private List<Data> data = new ArrayList<>();
 
     @FXML
     public void placePlayerHandCards() {
